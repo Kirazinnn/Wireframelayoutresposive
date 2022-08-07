@@ -1,0 +1,284 @@
+/* elementos principais */
+body {
+    background-color: #1a1a1a;
+}
+
+header {
+
+    margin: 15px auto;
+    height: 230px;
+}
+
+main {
+
+    margin: 15px auto;
+    height: 500px;
+  
+}
+
+footer{
+
+    margin: 15px auto;
+    height: 100px;
+    margin-top: 60px;
+
+}
+
+
+/* elementos principais -- fim */
+
+
+/* elementos padronizados */
+header,nav,section,aside,article,footer {
+
+    box-shadow: 4px 5px 8px rgba(48, 21, 121, 0.7);
+    border: 2px solid #999;
+    background-color: rgba(106, 14, 143, 0.3);
+    border-radius: 8px;
+}
+/* elementos padronizados -- fim*/
+
+
+
+/* elementos indentificadores */
+
+#main_1 {
+
+    width: 100%;
+    height: 15%;
+
+}
+#main_2 {
+
+    width: 100%;
+    height: 82%;
+
+}
+
+#main_3{
+
+    width: 100% ;
+    height:100% ;
+
+}
+#main_4{
+
+    width: 100%;
+    height: 82%;
+}
+
+#aside1 {
+
+    float: left;
+
+
+}
+
+#aside2 {
+
+    float: right;
+
+}
+
+
+#article1 {
+
+     /* height:40%;
+     width: 15%; */
+     height: 35%;
+     width: 70%;
+     margin: 15%;
+}
+
+#article2 {
+
+     /* height: 40%;
+     width: 15%;    */
+     height: 35%;
+     width: 70%;
+     margin:15% ;
+}
+
+#article3 {
+    
+    margin: 15px 0px 15px 15px;
+    height:30% ;
+    width: 40%;
+
+}
+
+#article4 {
+
+    float: right;
+    margin: -151.9px 15px 15px 20px;
+    height:30% ;
+    width: 40%;
+
+
+}
+
+#article5 {
+
+  margin: auto;
+  height:25% ;
+  width:95% ;
+    
+}
+
+#article6 {
+     
+    float: left;
+    margin: 15px 0px 15px 15px;
+    height:30% ;
+    width:40% ;
+
+}
+
+#article7 {
+
+    float: right;
+    margin: 15px 15px 15px 0px;
+    height:30% ;
+    width:40% ;
+
+
+}
+
+
+
+#section_left {
+
+    float: left;
+    margin-top: 15px;
+    height: 110%;
+    width: 22%;
+
+}
+
+#section_center{
+
+    margin:0% 10% 0% 25% ;
+    margin-top: -390px; 
+    height: 90%;
+    width: 50%;
+    /* margin-right: 50%; */
+
+}
+
+#section_right{
+
+    float: right;
+    margin-top: -500px;
+    height: 110%;
+    width: 22%;
+    
+
+}
+
+
+/*elementos indentificadores -- fim*/
+
+
+
+/* Elementos descendentes */
+
+header>section {
+
+    margin: 1.5%;
+    height: 80%;
+    width: 15%;
+    float: left;
+
+}
+
+header>nav{
+
+    float: right;
+    height: 15%;
+    width: 45%;
+    margin: 1.5%;
+
+}
+
+#main_1>aside{
+
+    height: 100%;
+    width: 48.5%;
+
+}
+
+#main_2>article{
+      
+    height: 40%;
+    margin: 3.3%;
+     
+}
+#main_3>article{
+
+    height: 40%;
+    margin: 3.3%;
+
+}
+
+
+/* Elementos descendentes -- fim */
+
+
+
+
+/* responsivo */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 46.56%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 80.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    [class="col-"] {
+        width: 100%;
+    }
+}
+
+/* resposivo -- fim */
